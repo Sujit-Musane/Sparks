@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dad8d8;
+}
+
+
+/* navbar css starts here  */
+
+.bg-light {
+    background-color: #332d2a!important;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.toggle-color {
+    background-color: #f9f3f3;
+}
+
+.navbar-brand {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', fantasy;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #f9f3f3!important;
+}
+
+.nav-link {
+    color: #f9f3f3!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #1a1717;
+}
+
+.bgcolor-sm {
+    background-color: rgb(114, 108, 108);
+}
+
+
+/* navbar css ends here  */
+
+.my-info {
+    color: #fcfcfc;
+    padding: 2rem 5rem;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: rgb(6, 180, 172)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover {
+    font-weight: bold;
+    color: rgb(2, 192, 129)!important;
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.table-success1 {
+    background-color: rgb(15, 164, 190);
+    color: #f9f3f3;
+}
+
+.table-light1:hover {
+    color: #fff!important;
+    background-color: rgba(0, 0, 0, 0.7)!important;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+}
+
+.color {
+    color: white!important;
+    font-size: 22px!important;
+}
+
+.table-light1 {
+    background-color: #fcfcfc;
+}
+
+.table-info1 {
+    background-color: #fcfcfc;
+}
+
+.image {
+    background: rgba(0, 0, 0, 0.8) url('../../Image/05.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
